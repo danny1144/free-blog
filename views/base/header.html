@@ -1,0 +1,28 @@
+<div class="header">
+    <div class="menu-btn">
+        <div class="menu"></div>
+    </div>
+    <h1 class="logo">
+        <a href="index">
+            <span>MYBLOG</span>
+            <img src="img/logo.png">
+        </a>
+    </h1>
+    <div class="nav">
+        <a href="/" class="{{if .index}}active{{end}}">文章</a>
+        <a href="/whisper" class="{{if .whisper}}active{{end}}">微语</a>
+        <a href="/leacots" class="{{if .leacots}}active{{end}}"> 留言</a>
+        <a href="/album" class="{{if .album}}active{{end}}">相册</a>
+        <a href="/about" class="{{if .about}}active{{end}}">关于</a>
+    </div>
+    <ul class="layui-nav header-down-nav">
+        <li class="layui-nav-item"><a href="/" class="{{if .index}}active{{end}}">文章</a></li>
+        <li class="layui-nav-item"><a href="/whisper" class="{{if .whisper}}active{{end}}">微语</a></li>
+        <li class="layui-nav-item"><a href="/leacots" class="{{if .leacots}}active{{end}}">留言</a></li>
+        <li class="layui-nav-item"><a href="/album" class="{{if .album}}active{{end}}">相册</a></li>
+        <li class="layui-nav-item"><a href="/about" class="{{if .about}}active{{end}}">关于</a></li>
+    </ul>
+    <p class="welcome-text">
+        欢迎来到<span class="name">小明</span>的博客~
+    </p>
+</div>
